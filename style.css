@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:wght@200&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Poppins:wght@200&family=Rubik:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -355,4 +354,85 @@ a:hover::after{
     /* background-color: #0B132A; */
     filter: brightness(10%);
     transition: .4s ease-out;
+}
+.container .slider {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 60px;
+
+}
+.slider-header {
+    text-align: center;
+    width: 480px;
+    
+    
+}
+.slider-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.slider-discription{
+    font-size: 14px;
+    font-weight: 800;
+    color: #4F5665;
+}
+
+.testimonial{
+    border: 1px solid orangered;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 700px;
+}
+.testimonial-gray{
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    width: 700px;
+}
+.testimonial-top  {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    /* justify-content: space-between; */
+
+
+}
+.testimonial-top .rating {
+    margin-left: auto;
+}
+.cutomer-heading {
+    /* margin-left: 5px; */
+}
+.rating::after{
+    content: url(Group\ 1161.png);
+    margin: 0 5px 0 5px;
+    align-items: center;
+
+}
+.main-testimonial {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.testimonial-top .city-name {
+    font-size: 10px;
+    font-weight: 600;
+}
+.testimonial .testimonial-body {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.customer-heading .customer-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.testimonial-top .customer-heading {
+    margin-left: 10px;
 }
